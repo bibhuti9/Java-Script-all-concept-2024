@@ -42,3 +42,8 @@ console.log(typeof myFunction); // outPut -> function -> Call the user ->(object
 console.log(typeof anotherId);   // outPut -> Symbol
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//+++++++++++++++++++++++++++++++++++++++++++
+// Stack memory use the -> (Primitive dataType) 
+//Heap memory Use the -> (Non Primitive dataType)
+
