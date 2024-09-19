@@ -44,6 +44,30 @@ console.log(typeof anotherId);   // outPut -> Symbol
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
 //+++++++++++++++++++++++++++++++++++++++++++
-// Stack memory use the -> (Primitive dataType) 
+// Stack memory use the -> (Primitive dataType)
+    
+// Example
+    let fullname= "Balram"
+    let anotherName = fullname;
+    anotherName = "Panda"
+
+    console.log(fullname); 
+    console.log(anotherName);
+    // give the copy in orginal value . not change the orginal value 
+   
+
+
 //Heap memory Use the -> (Non Primitive dataType)
+    let userOne = {
+        email :"user@google.com",
+        upi:"user@ybl"
+    }
+    let userTwo = userOne;
+
+    userTwo.email = "balram@google.com";
+
+    console.log(userTwo.email);
+    console.log(userOne.email);
+    
+    // give the Reference in orginal value. Direct chang the orginal value
 
