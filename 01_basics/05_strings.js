@@ -5,25 +5,25 @@ const repoCount = 50
 // console.log(name + repoCount + "value"); // old uses
 
 // String interpolation
-// console.log(`Hello my name is ${name} And my repo count is ${repoCount}`);
+console.log(`Hello my name is ${name} And my repo count is ${repoCount}`);
      // Seconds
 const gameName = new String('Balram')
-    // console.log(gameName[0]);
-    // console.log(gameName.__proto__)
-    // console.log(gameName.length);
-    // console.log(gameName.toLowerCase());
-    // console.log(gameName.toUpperCase());
-    // console.log(gameName.charAt(2));
-    // console.log(gameName.indexOf('l'));
+    console.log(gameName[0]);
+    console.log(gameName.__proto__)
+    console.log(gameName.length);
+    console.log(gameName.toLowerCase());
+    console.log(gameName.toUpperCase());
+    console.log(gameName.charAt(2));
+    console.log(gameName.indexOf('l'));
 
-    // const newString = gameName.substring(0,4);
-    // console.log(newString);  // not Use the Negative value
+    const newString = gameName.substring(0,4);
+     console.log(newString);  // not Use the Negative value
     
-    // const anotherString = gameName.slice(-5,3);
-    // console.log(anotherString); // Use the Negative value
+    const anotherString = gameName.slice(-5,3);
+    console.log(anotherString); // Use the Negative value
 
-    // const anotherString1 = gameName.slice(0,3);
-    // console.log(anotherString1);
+    const anotherString1 = gameName.slice(0,3);
+    console.log(anotherString1);
     
 
     const newStringOne = "       Balram   ";
