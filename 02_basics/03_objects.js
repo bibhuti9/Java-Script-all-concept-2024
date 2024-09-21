@@ -1,7 +1,8 @@
-// signaleton
-//Object.create
+// Object Use Two Type  
+    // 1)signaleton (Object.create)
+    // 2)object literals
+//2) object literals  
 
-// object literals  
 const mySym = Symbol("Key1");
 
     const JsUser = {
