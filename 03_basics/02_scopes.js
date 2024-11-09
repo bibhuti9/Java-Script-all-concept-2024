@@ -24,3 +24,52 @@ if(true){
 // console.log(c);   // it is use the out of block scopes {}
 
 console.log(a); // output ->300
+
+
+
+
+//   nexted scopes
+
+
+function one(){
+    const userName = "Balram";
+
+    function tow(){
+        const  website = "youtube";
+        console.log(userName); // output -> Balram
+    }
+    // console.log(website);  // output -> error
+    tow();
+}
+ one();
+
+
+
+if(true){
+    const username = "Balram"
+     if(username === "Balram"){
+        const secondname = " Sunita"
+         console.log(username + secondname); // output - > Balram Sunita
+     }
+    //  console.log(secondname);  // output - > error
+}
+// console.log(username);  // output - >  error
+
+
+
+
+//+++++++++++++++++++++++++ interesting ++++++++++++++++++++++++
+
+
+console.log(addone(5));  // output = > 6
+function addone(num){
+    return num + 1;
+}
+
+
+// hosting
+addTwo(5);  // output -> Cannot access error
+const addTwo =  function(num){    // hoisting 
+    return num + 2;
+}
+
