@@ -1,3 +1,5 @@
+// using the array then use the for of loop                    ----- imp 
+
 // for of loop
 
 // ["","",""]
@@ -7,14 +9,14 @@
 const arr = [1,2,3,4,5]
 
 for (const i of arr) {
-    // console.log(i); // output : 1,2,3,4,5
+    console.log(i); // output : 1,2,3,4,5
     // console.log(arr);  // output : [ 1, 2, 3, 4, 5 ]  five time print
 }
 
 
  const greetings  = "Hello World!"
  for (const greet of greetings) {
-    // console.log(`Each Char is ${greet}`); 
+    console.log(`Each Char is ${greet}`); 
  }
 
  //maps
@@ -52,4 +54,12 @@ for (const [key,value] of map) { // [key,value] = > array discuter
     // Fr :- France
 
 
-    // stop time  = 11.39
+const myObject = {
+    game1:"NSF",
+    game2:"spiderman"
+}
+
+for (const [key,value] of myObject) {
+    console.log(`${key} :- ${value}`);
+}
+// output -> error -> myObject is not iterable
